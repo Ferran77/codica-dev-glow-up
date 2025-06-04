@@ -7,7 +7,7 @@ const Hero = () => {
       
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-brand-white mb-6 animate-fade-in">
+        <h1 className="text-4xl md:text-6xl text-brand-white mb-6 animate-fade-in lg:text-5xl text-justify font-extrabold mx-[20px] my-[40px] px-[10px] py-[10px]">
           Códica Dev: Your Partner for{' '}
           <span className="text-brand-accent">Digital Success</span>
         </h1>
@@ -23,7 +23,7 @@ const Hero = () => {
             <ArrowRight size={20} />
           </Link>
           
-          <Link to="/contact" className="border-2 border-brand-accent text-brand-accent hover:bg-brand-accent hover:text-white font-medium px-8 rounded-lg transition-all duration-200 hover:shadow-lg my-[40px] py-[22px]">
+          <Link to="/contact" className="border-2 border-brand-accent text-brand-accent hover:bg-brand-accent hover:text-white font-medium px-8 py-3 rounded-lg transition-all duration-200 hover:shadow-lg">
             Start Your Project
           </Link>
         </div>
