@@ -1,86 +1,83 @@
-
-import Navigation from '@/components/Navigation';
-import Footer from '@/components/Footer';
 import { Link } from 'react-router-dom';
 import { ExternalLink, Monitor, Smartphone, Cloud } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const Portfolio = () => {
+  const { t } = useTranslation();
+
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      category: "Web Application",
-      description: "A complete e-commerce solution with inventory management, payment processing, and analytics dashboard.",
+      title: t('portfolio.projects.ecommerce.title'),
+      category: t('portfolio.projects.ecommerce.category'),
+      description: t('portfolio.projects.ecommerce.description'),
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
       technologies: ["React", "Node.js", "PostgreSQL", "Stripe"],
       icon: Monitor,
-      results: "300% increase in online sales"
+      results: t('portfolio.projects.ecommerce.results')
     },
     {
       id: 2,
-      title: "Task Management SaaS",
-      category: "SaaS Platform",
-      description: "A collaborative project management tool with real-time updates, team collaboration, and advanced reporting.",
+      title: t('portfolio.projects.taskManagement.title'),
+      category: t('portfolio.projects.taskManagement.category'),
+      description: t('portfolio.projects.taskManagement.description'),
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
       technologies: ["React", "TypeScript", "Firebase", "Material-UI"],
       icon: Cloud,
-      results: "10,000+ active users in first 6 months"
+      results: t('portfolio.projects.taskManagement.results')
     },
     {
       id: 3,
-      title: "Fitness Tracking App",
-      category: "Mobile Application",
-      description: "A comprehensive fitness app with workout tracking, nutrition planning, and social features.",
+      title: t('portfolio.projects.fitness.title'),
+      category: t('portfolio.projects.fitness.category'),
+      description: t('portfolio.projects.fitness.description'),
       image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop",
       technologies: ["React Native", "Firebase", "Redux", "Expo"],
       icon: Smartphone,
-      results: "50,000+ downloads and 4.8★ rating"
+      results: t('portfolio.projects.fitness.results')
     },
     {
       id: 4,
-      title: "Restaurant Management System",
-      category: "Web Application",
-      description: "Complete restaurant management solution with POS integration, inventory tracking, and customer management.",
+      title: t('portfolio.projects.restaurant.title'),
+      category: t('portfolio.projects.restaurant.category'),
+      description: t('portfolio.projects.restaurant.description'),
       image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop",
       technologies: ["Vue.js", "Laravel", "MySQL", "Square API"],
       icon: Monitor,
-      results: "Reduced operational costs by 25%"
+      results: t('portfolio.projects.restaurant.results')
     },
     {
       id: 5,
-      title: "Healthcare Appointment Platform",
-      category: "SaaS Platform",
-      description: "Digital platform connecting patients with healthcare providers, featuring appointment scheduling and telehealth.",
+      title: t('portfolio.projects.healthcare.title'),
+      category: t('portfolio.projects.healthcare.category'),
+      description: t('portfolio.projects.healthcare.description'),
       image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&h=400&fit=crop",
       technologies: ["React", "Node.js", "MongoDB", "WebRTC"],
       icon: Cloud,
-      results: "Serves 25+ healthcare practices"
+      results: t('portfolio.projects.healthcare.results')
     },
     {
       id: 6,
-      title: "Real Estate Mobile App",
-      category: "Mobile Application",
-      description: "Property search and management app with AR visualization, mortgage calculator, and agent connection.",
+      title: t('portfolio.projects.realEstate.title'),
+      category: t('portfolio.projects.realEstate.category'),
+      description: t('portfolio.projects.realEstate.description'),
       image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&h=400&fit=crop",
       technologies: ["Flutter", "Firebase", "Google Maps", "ARCore"],
       icon: Smartphone,
-      results: "Featured in App Store Top Charts"
+      results: t('portfolio.projects.realEstate.results')
     }
   ];
 
   return (
-    <div className="min-h-screen bg-brand-dark">
-      <Navigation />
-      
+    <div className="min-h-screen">
       {/* Hero Section */}
       <section className="pt-20 pb-16 bg-brand-gradient">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-white mb-6">
-            Our Work <span className="text-brand-accent">Speaks for Itself</span>
+            {t('portfolio.hero.title')}
           </h1>
           <p className="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto">
-            Explore some of the innovative solutions we've crafted for our clients, 
-            solving real challenges and driving their growth.
+            {t('portfolio.hero.description')}
           </p>
         </div>
       </section>
@@ -131,13 +128,13 @@ const Portfolio = () => {
                     
                     <div className="border-t border-gray-700 pt-4">
                       <p className="text-sm text-brand-accent font-semibold mb-3">
-                        Results: {project.results}
+                        {t('portfolio.project.results')}: {project.results}
                       </p>
                       <Link
                         to={`/contact`}
                         className="inline-flex items-center gap-2 text-brand-accent hover:text-orange-300 font-medium transition-colors"
                       >
-                        View Project Details
+                        {t('portfolio.project.viewDetails')}
                         <ExternalLink size={16} />
                       </Link>
                     </div>
@@ -153,21 +150,19 @@ const Portfolio = () => {
       <section className="py-20 bg-gray-900/30">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-brand-white mb-6">
-            Ready to Start Your Own Success Story?
+            {t('portfolio.cta.title')}
           </h2>
           <p className="text-xl text-gray-300 mb-8">
-            Let's discuss your project and create something amazing together.
+            {t('portfolio.cta.description')}
           </p>
           <Link
             to="/contact"
             className="btn-primary"
           >
-            Get Started Today
+            {t('portfolio.cta.button')}
           </Link>
         </div>
       </section>
-
-      <Footer />
     </div>
   );
 };

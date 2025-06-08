@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -68,7 +67,7 @@ export default {
 				},
 				// Códica Dev Brand Colors
 				'brand-dark': '#1f1934',
-				'brand-accent': '#f5741c',
+				'brand-accent': '#ff8c3a',
 				'brand-white': '#ffffff',
 				'brand-gradient-start': 'rgba(170, 54, 124, 0.5)',
 				'brand-gradient-end': 'rgba(74, 47, 189, 0.5)',

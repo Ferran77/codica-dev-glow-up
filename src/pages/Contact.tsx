@@ -1,11 +1,10 @@
-
-import Navigation from '@/components/Navigation';
-import Footer from '@/components/Footer';
 import { useState } from 'react';
 import { Mail, Phone, MapPin, Send, Clock, CheckCircle } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -22,8 +21,8 @@ const Contact = () => {
     // Simulate form submission
     setTimeout(() => {
       toast({
-        title: "Message Sent Successfully!",
-        description: "We'll get back to you within 24 hours.",
+        title: t('contact.form.success.title'),
+        description: t('contact.form.success.description'),
       });
       setFormData({ name: '', email: '', phone: '', message: '' });
       setIsSubmitting(false);
@@ -38,18 +37,16 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen bg-brand-dark">
-      <Navigation />
-      
+    <div className="min-h-screen">
       {/* Hero Section */}
       <section className="pt-20 pb-16 bg-brand-gradient">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-white mb-6">
-            Let's Discuss Your <span className="text-brand-accent">Next Project</span>
-          </h1>
+          <h1 
+            className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-white mb-6"
+            dangerouslySetInnerHTML={{ __html: t('contact.hero.title') }}
+          />
           <p className="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto">
-            We're ready to hear your ideas and help turn them into digital reality. 
-            Send us a message or schedule a free consultation.
+            {t('contact.hero.description')}
           </p>
         </div>
       </section>
@@ -61,12 +58,12 @@ const Contact = () => {
             
             {/* Contact Form */}
             <div className="bg-gray-900/50 p-8 rounded-xl border border-gray-700">
-              <h2 className="text-2xl font-bold text-brand-white mb-6">Send Us a Message</h2>
+              <h2 className="text-2xl font-bold text-brand-white mb-6">{t('contact.form.title')}</h2>
               
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">
-                    Full Name *
+                    {t('contact.form.name.label')}
                   </label>
                   <input
                     type="text"
@@ -76,13 +73,13 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-brand-accent transition-colors"
-                    placeholder="Your full name"
+                    placeholder={t('contact.form.name.placeholder')}
                   />
                 </div>
 
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">
-                    Email Address *
+                    {t('contact.form.email.label')}
                   </label>
                   <input
                     type="email"
@@ -92,13 +89,13 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-brand-accent transition-colors"
-                    placeholder="your.email@example.com"
+                    placeholder={t('contact.form.email.placeholder')}
                   />
                 </div>
 
                 <div>
                   <label htmlFor="phone" className="block text-sm font-medium text-gray-300 mb-2">
-                    Phone Number (Optional)
+                    {t('contact.form.phone.label')}
                   </label>
                   <input
                     type="tel"
@@ -107,13 +104,13 @@ const Contact = () => {
                     value={formData.phone}
                     onChange={handleChange}
                     className="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-brand-accent transition-colors"
-                    placeholder="+1 (555) 123-4567"
+                    placeholder={t('contact.form.phone.placeholder')}
                   />
                 </div>
 
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-2">
-                    Project Details *
+                    {t('contact.form.message.label')}
                   </label>
                   <textarea
                     id="message"
@@ -123,7 +120,7 @@ const Contact = () => {
                     required
                     rows={6}
                     className="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-brand-accent transition-colors resize-none"
-                    placeholder="Tell us about your project, goals, timeline, and any specific requirements..."
+                    placeholder={t('contact.form.message.placeholder')}
                   />
                 </div>
 
@@ -134,12 +131,12 @@ const Contact = () => {
                 >
                   {isSubmitting ? (
                     <>
-                      Sending...
+                      {t('contact.form.submitting')}
                       <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white"></div>
                     </>
                   ) : (
                     <>
-                      Send Message
+                      {t('contact.form.submit')}
                       <Send size={20} />
                     </>
                   )}
@@ -150,10 +147,9 @@ const Contact = () => {
             {/* Contact Info */}
             <div className="space-y-8">
               <div>
-                <h2 className="text-2xl font-bold text-brand-white mb-6">Get in Touch</h2>
+                <h2 className="text-2xl font-bold text-brand-white mb-6">{t('contact.info.title')}</h2>
                 <p className="text-gray-300 text-lg leading-relaxed mb-8">
-                  Ready to transform your digital presence? We're here to help you 
-                  navigate your next project and achieve your business goals.
+                  {t('contact.info.description')}
                 </p>
               </div>
 
@@ -164,14 +160,14 @@ const Contact = () => {
                     <Mail className="text-brand-accent" size={24} />
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-brand-white mb-1">Email Us</h3>
+                    <h3 className="text-lg font-semibold text-brand-white mb-1">{t('contact.info.email.title')}</h3>
                     <p className="text-gray-300">
                       <a href="mailto:contact@codicadev.com" className="text-link">
                         contact@codicadev.com
                       </a>
                     </p>
                     <p className="text-sm text-gray-400 mt-1">
-                      We typically respond within 2-4 hours during business days
+                      {t('contact.info.email.response')}
                     </p>
                   </div>
                 </div>
@@ -181,10 +177,10 @@ const Contact = () => {
                     <Phone className="text-brand-accent" size={24} />
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-brand-white mb-1">Call Us</h3>
+                    <h3 className="text-lg font-semibold text-brand-white mb-1">{t('contact.info.phone.title')}</h3>
                     <p className="text-gray-300">+1 (555) 123-4567</p>
                     <p className="text-sm text-gray-400 mt-1">
-                      Monday - Friday, 9:00 AM - 6:00 PM EST
+                      {t('contact.info.phone.hours')}
                     </p>
                   </div>
                 </div>
@@ -194,10 +190,10 @@ const Contact = () => {
                     <MapPin className="text-brand-accent" size={24} />
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-brand-white mb-1">Location</h3>
-                    <p className="text-gray-300">Remote & Global</p>
+                    <h3 className="text-lg font-semibold text-brand-white mb-1">{t('contact.info.location.title')}</h3>
+                    <p className="text-gray-300">{t('contact.info.location.address')}</p>
                     <p className="text-sm text-gray-400 mt-1">
-                      Serving clients worldwide with local expertise
+                      {t('contact.info.location.description')}
                     </p>
                   </div>
                 </div>
@@ -207,14 +203,14 @@ const Contact = () => {
               <div className="bg-gray-900/50 p-6 rounded-xl border border-gray-700">
                 <h3 className="text-lg font-semibold text-brand-white mb-4 flex items-center gap-2">
                   <Clock className="text-brand-accent" size={20} />
-                  What Happens Next?
+                  {t('contact.process.title')}
                 </h3>
                 <div className="space-y-3">
                   <div className="flex items-start gap-3">
                     <CheckCircle className="text-brand-accent mt-1 flex-shrink-0" size={16} />
                     <div>
                       <p className="text-gray-300 text-sm">
-                        <span className="font-medium">Within 24 hours:</span> We'll review your message and respond with initial thoughts
+                        <span className="font-medium">{t('contact.process.step1.time')}:</span> {t('contact.process.step1.description')}
                       </p>
                     </div>
                   </div>
@@ -222,7 +218,7 @@ const Contact = () => {
                     <CheckCircle className="text-brand-accent mt-1 flex-shrink-0" size={16} />
                     <div>
                       <p className="text-gray-300 text-sm">
-                        <span className="font-medium">Free consultation call:</span> Discuss your project goals and requirements
+                        <span className="font-medium">{t('contact.process.step2.title')}:</span> {t('contact.process.step2.description')}
                       </p>
                     </div>
                   </div>
@@ -230,7 +226,7 @@ const Contact = () => {
                     <CheckCircle className="text-brand-accent mt-1 flex-shrink-0" size={16} />
                     <div>
                       <p className="text-gray-300 text-sm">
-                        <span className="font-medium">Custom proposal:</span> Detailed timeline, scope, and pricing for your project
+                        <span className="font-medium">{t('contact.process.step3.title')}:</span> {t('contact.process.step3.description')}
                       </p>
                     </div>
                   </div>
@@ -240,8 +236,6 @@ const Contact = () => {
           </div>
         </div>
       </section>
-
-      <Footer />
     </div>
   );
 };

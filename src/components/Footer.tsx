@@ -1,9 +1,10 @@
-
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin, Github, Linkedin, Twitter } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const { t } = useTranslation();
 
   return (
     <footer className="bg-gray-900 border-t border-gray-800">
@@ -12,13 +13,15 @@ const Footer = () => {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <Link to="/" className="flex items-center mb-4">
-              <span className="text-2xl font-bold text-brand-white">
-                Códica <span className="text-brand-accent">Dev</span>
-              </span>
+              <img 
+                src="/assets/codica_dev_logo.png" 
+                alt="Códica Dev Logo" 
+                className="w-auto"
+                style={{ height: '140px' }}
+              />
             </Link>
             <p className="text-gray-300 mb-6 max-w-md">
-              Strategic digital solutions that accelerate your business growth. 
-              Specializing in web applications, SaaS development, and mobile solutions.
+              {t('footer.description')}
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-brand-accent transition-colors">
@@ -35,31 +38,31 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold text-brand-white mb-4">Quick Links</h3>
+            <h3 className="text-lg font-semibold text-brand-white mb-4">{t('footer.quickLinks')}</h3>
             <ul className="space-y-2">
               <li>
                 <Link to="/" className="text-gray-300 hover:text-brand-accent transition-colors">
-                  Home
+                  {t('nav.home')}
                 </Link>
               </li>
               <li>
                 <Link to="/services" className="text-gray-300 hover:text-brand-accent transition-colors">
-                  Services
+                  {t('nav.services')}
                 </Link>
               </li>
               <li>
                 <Link to="/portfolio" className="text-gray-300 hover:text-brand-accent transition-colors">
-                  Portfolio
+                  {t('nav.portfolio')}
                 </Link>
               </li>
               <li>
                 <Link to="/about" className="text-gray-300 hover:text-brand-accent transition-colors">
-                  About Us
+                  {t('nav.about')}
                 </Link>
               </li>
               <li>
                 <Link to="/contact" className="text-gray-300 hover:text-brand-accent transition-colors">
-                  Contact
+                  {t('nav.contact')}
                 </Link>
               </li>
             </ul>
@@ -67,7 +70,7 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-semibold text-brand-white mb-4">Contact</h3>
+            <h3 className="text-lg font-semibold text-brand-white mb-4">{t('footer.contact')}</h3>
             <ul className="space-y-3">
               <li className="flex items-center gap-3 text-gray-300">
                 <Mail size={16} className="text-brand-accent" />
@@ -89,14 +92,14 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © {currentYear} Códica Dev. All rights reserved.
+            © {currentYear} Códica Dev. {t('footer.rights')}
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link to="/privacy" className="text-gray-400 hover:text-brand-accent text-sm transition-colors">
-              Privacy Policy
+              {t('footer.privacy')}
             </Link>
             <Link to="/terms" className="text-gray-400 hover:text-brand-accent text-sm transition-colors">
-              Terms of Service
+              {t('footer.terms')}
             </Link>
           </div>
         </div>

@@ -1,0 +1,269 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "portfolio": "Portafolio",
+    "about": "Nosotros",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Transforma tu Negocio con Tecnología",
+    "subtitle": "Creamos soluciones digitales personalizadas que ayudan a las empresas a crecer y tener éxito en la era digital.",
+    "description": "Transformamos tus ideas en poderosas soluciones digitales que impulsan resultados y crecimiento.",
+    "cta": "Explora Nuestros Servicios",
+    "contact": "Contáctanos",
+    "cards": {
+      "web": {
+        "title": "Aplicaciones Web",
+        "description": "Sitios web profesionales y aplicaciones web personalizadas que convierten."
+      },
+      "saas": {
+        "title": "Soluciones SaaS",
+        "description": "Soluciones SaaS escalables y listas para el mercado que generan ingresos recurrentes."
+      },
+      "mobile": {
+        "title": "Aplicaciones Móviles",
+        "description": "Aplicaciones móviles personalizadas para experiencias de usuario superiores."
+      }
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Tecnología para tu Crecimiento",
+      "description": "Descubre nuestra amplia gama de soluciones digitales diseñadas para elevar tu negocio."
+    },
+    "web": {
+      "title": "Desarrollo Web",
+      "description": "Diseño y desarrollo profesional de sitios web, aplicaciones web personalizadas y mantenimiento continuo."
+    },
+    "saas": {
+      "title": "Soluciones SaaS",
+      "description": "Desarrollo de SaaS personalizado, creación de micro SaaS y servicios de consultoría SaaS."
+    },
+    "mobile": {
+      "title": "Aplicaciones Móviles",
+      "description": "Aplicaciones móviles para empresas y consumidores, desarrollo multiplataforma y mantenimiento de apps."
+    }
+  },
+  "portfolio": {
+    "hero": {
+      "title": "Nuestro Trabajo Habla por Sí Mismo",
+      "description": "Explora algunas de las soluciones innovadoras que hemos creado para nuestros clientes, resolviendo desafíos reales e impulsando su crecimiento."
+    },
+    "projects": {
+      "ecommerce": {
+        "title": "Plataforma E-Commerce",
+        "category": "Aplicación Web",
+        "description": "Una solución completa de comercio electrónico con gestión de inventario, procesamiento de pagos y panel de análisis.",
+        "results": "300% de aumento en ventas en línea"
+      },
+      "taskManagement": {
+        "title": "SaaS de Gestión de Tareas",
+        "category": "Plataforma SaaS",
+        "description": "Una herramienta colaborativa de gestión de proyectos con actualizaciones en tiempo real, colaboración en equipo y reportes avanzados.",
+        "results": "Más de 10,000 usuarios activos en los primeros 6 meses"
+      },
+      "fitness": {
+        "title": "App de Seguimiento Fitness",
+        "category": "Aplicación Móvil",
+        "description": "Una aplicación fitness integral con seguimiento de entrenamientos, planificación nutricional y funciones sociales.",
+        "results": "Más de 50,000 descargas y calificación de 4.8★"
+      },
+      "restaurant": {
+        "title": "Sistema de Gestión para Restaurantes",
+        "category": "Aplicación Web",
+        "description": "Solución completa de gestión para restaurantes con integración POS, seguimiento de inventario y gestión de clientes.",
+        "results": "Reducción de costos operativos en 25%"
+      },
+      "healthcare": {
+        "title": "Plataforma de Citas Médicas",
+        "category": "Plataforma SaaS",
+        "description": "Plataforma digital que conecta pacientes con proveedores de salud, con programación de citas y telesalud.",
+        "results": "Atiende a más de 25 prácticas médicas"
+      },
+      "realEstate": {
+        "title": "App Inmobiliaria",
+        "category": "Aplicación Móvil",
+        "description": "Aplicación de búsqueda y gestión de propiedades con visualización AR, calculadora hipotecaria y conexión con agentes.",
+        "results": "Destacada en los Top Charts de App Store"
+      }
+    },
+    "project": {
+      "results": "Resultados",
+      "viewDetails": "Ver Detalles del Proyecto"
+    },
+    "cta": {
+      "title": "¿Listo para Comenzar tu Propia Historia de Éxito?",
+      "description": "Hablemos de tu proyecto y creemos algo increíble juntos.",
+      "button": "Comienza Hoy"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Códica Dev: Nuestra Historia y Visión",
+      "description": "Somos tecnólogos apasionados y pensadores estratégicos dedicados a transformar negocios a través de soluciones digitales innovadoras."
+    },
+    "story": {
+      "title": "Nuestra Historia",
+      "paragraph1": "Códica Dev nació de una creencia simple pero poderosa: que cada negocio, sin importar su tamaño, merece acceso a soluciones digitales de clase mundial que impulsen el crecimiento y el éxito.",
+      "paragraph2": "Fundada por desarrolladores experimentados y pensadores estratégicos, hemos sido testigos de primera mano de cómo la tecnología adecuada puede transformar operaciones, expandir el alcance y desbloquear nuevas oportunidades. Nuestro viaje comenzó con la misión de cerrar la brecha entre la tecnología compleja y las soluciones empresariales prácticas.",
+      "paragraph3": "Hoy, nos enorgullece asociarnos con empresas de diferentes industrias, ayudándolas a navegar el panorama digital con confianza y lograr resultados medibles a través de aplicaciones web innovadoras, plataformas SaaS y soluciones móviles.",
+      "approach": {
+        "title": "Nuestro Enfoque",
+        "description": "Combinamos experiencia técnica con pensamiento estratégico para entregar soluciones que no solo funcionan—sino que sobresalen.",
+        "imageAlt": "Colaboración del equipo"
+      }
+    },
+    "mission": {
+      "title": "Nuestra Misión",
+      "description": "Empoderar a las empresas con soluciones digitales innovadoras que impulsen el crecimiento, mejoren la eficiencia y creen conexiones significativas con sus audiencias. Estamos comprometidos a entregar excelencia en cada proyecto mientras construimos asociaciones duraderas basadas en confianza y resultados."
+    },
+    "vision": {
+      "title": "Nuestra Visión",
+      "description": "Ser el socio tecnológico estratégico de referencia para empresas que buscan transformar su presencia digital y lograr un crecimiento sostenible. Visualizamos un futuro donde cada negocio tenga acceso a tecnología potente y fácil de usar que amplifique su potencial."
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "description": "Estos principios fundamentales guían cada decisión que tomamos y cada solución que creamos.",
+      "innovation": {
+        "title": "Innovación",
+        "description": "Adoptamos tecnologías de vanguardia y soluciones creativas para resolver desafíos complejos."
+      },
+      "quality": {
+        "title": "Calidad",
+        "description": "Cada línea de código, cada elemento de diseño y cada interacción del usuario está elaborada con precisión."
+      },
+      "transparency": {
+        "title": "Transparencia",
+        "description": "La comunicación abierta, los plazos honestos y los precios claros son la base de nuestras relaciones."
+      },
+      "clientCentricity": {
+        "title": "Centrados en el Cliente",
+        "description": "Tu éxito es nuestro éxito. Alineamos nuestros esfuerzos con tus objetivos y metas empresariales."
+      }
+    },
+    "team": {
+      "title": "Conoce a Nuestro Equipo",
+      "description": "Nuestro diverso equipo de desarrolladores, diseñadores y estrategas reúne décadas de experiencia en la creación de soluciones digitales excepcionales.",
+      "members": {
+        "alex": {
+          "name": "Alex Rodriguez",
+          "role": "Fundador y Desarrollador Principal",
+          "description": "Desarrollador full-stack con más de 10 años de experiencia en soluciones empresariales."
+        },
+        "sarah": {
+          "name": "Sarah Chen",
+          "role": "Diseñadora UX/UI",
+          "description": "Diseñadora creativa especializada en diseño centrado en el usuario e interfaces modernas."
+        },
+        "marcus": {
+          "name": "Marcus Johnson",
+          "role": "Desarrollador Móvil",
+          "description": "Especialista móvil con experiencia en desarrollo multiplataforma y nativo."
+        }
+      }
+    },
+    "cta": {
+      "title": "¿Listo para Trabajar Juntos?",
+      "description": "Hablemos de cómo podemos ayudarte a transformar tu presencia digital y alcanzar tus objetivos empresariales.",
+      "button": "Iniciemos la Conversación"
+    }
+  },
+  "index": {
+    "cta": {
+      "title": "Hablemos de tu Proyecto",
+      "description": "Agenda una consulta gratuita para explorar cómo podemos ayudar a transformar tu negocio.",
+      "contact": "Contáctanos",
+      "portfolio": "Ver Nuestro Trabajo"
+    },
+    "whyChooseUs": {
+      "title": "¿Por qué elegir Códica Dev?",
+      "description": "Nuestro compromiso con la excelencia y la innovación nos distingue.",
+      "quality": {
+        "title": "Calidad Superior",
+        "description": "Código limpio, arquitectura robusta y las mejores prácticas de desarrollo."
+      },
+      "client": {
+        "title": "Enfoque en el Cliente",
+        "description": "Entendemos tus necesidades y entregamos soluciones que superan expectativas."
+      },
+      "speed": {
+        "title": "Desarrollo Rápido",
+        "description": "Metodologías ágiles y herramientas modernas para entregas eficientes."
+      },
+      "support": {
+        "title": "Soporte Continuo",
+        "description": "Mantenimiento y soporte técnico para garantizar el éxito a largo plazo."
+      }
+    }
+  },
+  "footer": {
+    "description": "Somos un equipo de desarrolladores apasionados dedicados a crear experiencias digitales excepcionales que impulsan el crecimiento empresarial.",
+    "quickLinks": "Enlaces Rápidos",
+    "contact": "Contacto",
+    "rights": "Todos los derechos reservados."
+  },
+  "contact": {
+    "hero": {
+      "title": "Hablemos de tu <span class=\"text-brand-accent\">Próximo Proyecto</span>",
+      "description": "Estamos listos para escuchar tus ideas y ayudarte a convertirlas en realidad digital. Envíanos un mensaje o agenda una consulta gratuita."
+    },
+    "form": {
+      "title": "Envíanos un Mensaje",
+      "name": {
+        "label": "Nombre Completo *",
+        "placeholder": "Tu nombre completo"
+      },
+      "email": {
+        "label": "Correo Electrónico *",
+        "placeholder": "tu.correo@ejemplo.com"
+      },
+      "phone": {
+        "label": "Teléfono (Opcional)",
+        "placeholder": "+1 (555) 123-4567"
+      },
+      "message": {
+        "label": "Detalles del Proyecto *",
+        "placeholder": "Cuéntanos sobre tu proyecto, objetivos, cronograma y requisitos específicos..."
+      },
+      "submit": "Enviar Mensaje",
+      "submitting": "Enviando...",
+      "success": {
+        "title": "¡Mensaje Enviado con Éxito!",
+        "description": "Te responderemos dentro de las próximas 24 horas."
+      }
+    },
+    "info": {
+      "title": "Contáctanos",
+      "description": "¿Listo para transformar tu presencia digital? Estamos aquí para ayudarte a navegar tu próximo proyecto y alcanzar tus objetivos empresariales.",
+      "email": {
+        "title": "Escríbenos",
+        "response": "Normalmente respondemos en 2-4 horas durante días laborables"
+      },
+      "phone": {
+        "title": "Llámanos",
+        "hours": "Lunes - Viernes, 9:00 AM - 6:00 PM EST"
+      },
+      "location": {
+        "title": "Ubicación",
+        "address": "Remoto y Global",
+        "description": "Atendiendo clientes en todo el mundo con experiencia local"
+      }
+    },
+    "process": {
+      "title": "¿Qué Sigue?",
+      "step1": {
+        "time": "Dentro de 24 horas",
+        "description": "Revisaremos tu mensaje y responderemos con nuestras primeras impresiones"
+      },
+      "step2": {
+        "title": "Llamada de consulta gratuita",
+        "description": "Discutiremos los objetivos y requisitos de tu proyecto"
+      },
+      "step3": {
+        "title": "Propuesta personalizada",
+        "description": "Cronograma detallado, alcance y presupuesto para tu proyecto"
+      }
+    }
+  }
+} 
