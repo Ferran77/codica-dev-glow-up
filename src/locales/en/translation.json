@@ -15,15 +15,30 @@
     "cards": {
       "web": {
         "title": "Web Applications",
-        "description": "Professional websites and custom web applications that convert."
+        "description": "Professional websites and custom web applications that drive results.",
+        "button": "Learn more",
+        "modal": {
+          "title": "Web Applications",
+          "content": "At Códica Dev we create professional websites and applications that work directly in the browser. This can range from an elegant site to showcase your business to a platform where your customers can register, purchase or interact with you. The important thing is that your web not only looks good, but works for you and generates results.\n\nWant to see how it could work for your business? Take the first step with Códica Dev."
+        }
       },
       "saas": {
         "title": "SaaS Solutions",
-        "description": "Scalable, market-ready SaaS solutions for recurring revenue."
+        "description": "Scalable, market-ready SaaS solutions for recurring revenue.",
+        "button": "Learn more",
+        "modal": {
+          "title": "SaaS Solutions",
+          "content": "A SaaS (Software as a Service) solution is like a program you don't need to install, because it's used online. Think of tools like Netflix, Zoom or Canva: you pay a subscription and use it from any device. At Códica Dev we design and develop digital platforms that you can offer as a service to your customers, generating recurring revenue with the possibility of growing along with your business.\n\nWant to transform your idea into a profitable SaaS? Start today with Códica Dev."
+        }
       },
       "mobile": {
         "title": "Mobile Apps",
-        "description": "Custom mobile applications for superior user experiences."
+        "description": "Custom mobile applications for superior user experiences.",
+        "button": "Learn more",
+        "modal": {
+          "title": "Mobile Apps",
+          "content": "We create custom apps for cell phones and tablets, made to measure for your business. These applications allow your customers to have direct access to your services in the palm of their hand, with a fast, intuitive and attractive experience. From food orders to reservations or online sales, we make sure your app is practical and easy to use.\n\nReady to take your business to your customers' pocket? Make it happen with Códica Dev."
+        }
       }
     }
   },
@@ -199,6 +214,9 @@
       }
     }
   },
+  "modal": {
+    "close": "Close"
+  },
   "footer": {
     "description": "We are a team of passionate developers dedicated to creating exceptional digital experiences that drive business growth.",
     "quickLinks": "Quick Links",
@@ -270,4 +288,4 @@
       }
     }
   }
-} 
+}

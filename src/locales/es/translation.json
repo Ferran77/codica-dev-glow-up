@@ -15,15 +15,30 @@
     "cards": {
       "web": {
         "title": "Aplicaciones Web",
-        "description": "Sitios web profesionales y aplicaciones web personalizadas que convierten."
+        "description": "Sitios web profesionales y aplicaciones web personalizadas que generan resultados.",
+        "button": "Saber más",
+        "modal": {
+          "title": "Aplicaciones Web",
+          "content": "En Códica Dev creamos páginas web profesionales y aplicaciones que funcionan directamente en el navegador. Esto puede ir desde un sitio elegante para mostrar tu negocio hasta una plataforma donde tus clientes puedan registrarse, comprar o interactuar contigo. Lo importante es que tu web no solo se vea bien, sino que trabaje para ti y genere resultados.\n\n¿Quieres ver cómo podría funcionar en tu negocio? Da el primer paso con Códica Dev."
+        }
       },
       "saas": {
         "title": "Soluciones SaaS",
-        "description": "Soluciones SaaS escalables y listas para el mercado que generan ingresos recurrentes."
+        "description": "Soluciones SaaS escalables y listas para el mercado que generan ingresos recurrentes.",
+        "button": "Saber más",
+        "modal": {
+          "title": "Soluciones SaaS",
+          "content": "Una solución SaaS (Software as a Service) es como un programa que no necesitas instalar, porque se usa en línea. Piensa en herramientas como Netflix, Zoom o Canva: pagas una suscripción y lo usas desde cualquier dispositivo. En Códica Dev diseñamos y desarrollamos plataformas digitales que puedes ofrecer como servicio a tus clientes, generando ingresos recurrentes y con la posibilidad de crecer junto con tu negocio.\n\n¿Quieres transformar tu idea en un SaaS rentable? Empieza hoy con Códica Dev."
+        }
       },
       "mobile": {
         "title": "Aplicaciones Móviles",
-        "description": "Aplicaciones móviles personalizadas para experiencias de usuario superiores."
+        "description": "Aplicaciones móviles personalizadas para experiencias de usuario superiores.",
+        "button": "Saber más",
+        "modal": {
+          "title": "Aplicaciones Móviles",
+          "content": "Creamos apps personalizadas para celulares y tabletas, hechas a la medida de tu negocio. Estas aplicaciones permiten que tus clientes tengan acceso directo a tus servicios en la palma de su mano, con una experiencia rápida, intuitiva y atractiva. Desde pedidos de comida hasta reservas o ventas en línea, nos aseguramos de que tu app sea práctica y fácil de usar.\n\n¿Listo para llevar tu negocio al bolsillo de tus clientes? Hazlo realidad con Códica Dev."
+        }
       }
     }
   },
@@ -197,6 +212,9 @@
       }
     }
   },
+  "modal": {
+    "close": "Cerrar"
+  },
   "footer": {
     "description": "Somos un equipo de desarrolladores apasionados dedicados a crear experiencias digitales excepcionales que impulsan el crecimiento empresarial.",
     "quickLinks": "Enlaces Rápidos",
@@ -266,4 +284,4 @@
       }
     }
   }
-} 
+}
