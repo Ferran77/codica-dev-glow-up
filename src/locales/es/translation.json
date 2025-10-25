@@ -49,15 +49,67 @@
     },
     "web": {
       "title": "Desarrollo Web",
-      "description": "Diseño y desarrollo profesional de sitios web, aplicaciones web personalizadas y mantenimiento continuo."
+      "description": "Diseño y desarrollo profesional de sitios web, aplicaciones web personalizadas y mantenimiento continuo.",
+      "design": {
+        "title": "Diseño Web Profesional",
+        "description": "Creamos sitios web modernos y atractivos que reflejan la identidad de tu marca y ofrecen una experiencia de usuario excepcional."
+      },
+      "custom": {
+        "title": "Aplicaciones Web Personalizadas",
+        "description": "Desarrollamos aplicaciones web a medida que se adaptan perfectamente a las necesidades específicas de tu negocio."
+      },
+      "maintenance": {
+        "title": "Mantenimiento y Soporte",
+        "description": "Ofrecemos soporte técnico continuo y actualizaciones regulares para mantener tu sitio web funcionando perfectamente."
+      },
+      "technologies": {
+        "title": "Tecnologías que Utilizamos"
+      },
+      "cta": "Hablemos de tu Proyecto Web"
     },
     "saas": {
       "title": "Soluciones SaaS",
-      "description": "Desarrollo de SaaS personalizado, creación de micro SaaS y servicios de consultoría SaaS."
+      "description": "Desarrollo de SaaS personalizado, creación de micro SaaS y servicios de consultoría SaaS.",
+      "custom": {
+        "title": "Desarrollo SaaS Personalizado",
+        "description": "Creamos plataformas SaaS completas desde cero, diseñadas para escalar y generar ingresos recurrentes."
+      },
+      "micro": {
+        "title": "Micro SaaS",
+        "description": "Desarrollamos soluciones SaaS especializadas y enfocadas que resuelven problemas específicos del mercado."
+      },
+      "consulting": {
+        "title": "Consultoría SaaS",
+        "description": "Te ayudamos a planificar, diseñar y lanzar tu producto SaaS con estrategias probadas de mercado."
+      },
+      "factors": {
+        "title": "Factores Clave del Éxito",
+        "scalable": "Arquitectura escalable y robusta",
+        "userCentric": "Diseño centrado en el usuario",
+        "security": "Seguridad y cumplimiento de datos",
+        "analytics": "Analytics y métricas avanzadas"
+      },
+      "cta": "Desarrolla tu SaaS"
     },
     "mobile": {
       "title": "Aplicaciones Móviles",
-      "description": "Aplicaciones móviles para empresas y consumidores, desarrollo multiplataforma y mantenimiento de apps."
+      "description": "Aplicaciones móviles para empresas y consumidores, desarrollo multiplataforma y mantenimiento de apps.",
+      "b2b": {
+        "title": "Apps Empresariales",
+        "description": "Aplicaciones móviles diseñadas para mejorar la productividad y eficiencia de tu equipo de trabajo."
+      },
+      "consumer": {
+        "title": "Apps para Consumidores",
+        "description": "Aplicaciones móviles atractivas y funcionales que conectan tu negocio directamente con tus clientes."
+      },
+      "hybrid": {
+        "title": "Desarrollo Híbrido",
+        "description": "Soluciones multiplataforma que funcionan perfectamente en iOS y Android con un solo desarrollo."
+      },
+      "platforms": {
+        "title": "Plataformas que Dominamos"
+      },
+      "cta": "Crea tu App Móvil"
     }
   },
   "portfolio": {
@@ -125,7 +177,7 @@
       "paragraph3": "Hoy, nos enorgullece asociarnos con empresas de diferentes industrias, ayudándolas a navegar el panorama digital con confianza y lograr resultados medibles a través de aplicaciones web innovadoras, plataformas SaaS y soluciones móviles.",
       "approach": {
         "title": "Nuestro Enfoque",
-        "description": "Combinamos experiencia técnica con pensamiento estratégico para entregar soluciones que no solo funcionan—sino que sobresalen.",
+        "description": "Combinamos experiencia técnica con pensamiento estratégico para entregar soluciones que no solo funcionan, sino que sobresalen.",
         "imageAlt": "Colaboración del equipo"
       }
     },

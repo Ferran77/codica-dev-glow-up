@@ -51,15 +51,67 @@
     },
     "web": {
       "title": "Web Development",
-      "description": "Professional website design and development, custom web applications, and ongoing maintenance."
+      "description": "Professional website design and development, custom web applications, and ongoing maintenance.",
+      "design": {
+        "title": "Professional Web Design",
+        "description": "We create modern and attractive websites that reflect your brand identity and offer an exceptional user experience."
+      },
+      "custom": {
+        "title": "Custom Web Applications",
+        "description": "We develop tailor-made web applications that perfectly adapt to your business's specific needs."
+      },
+      "maintenance": {
+        "title": "Maintenance and Support",
+        "description": "We offer continuous technical support and regular updates to keep your website running perfectly."
+      },
+      "technologies": {
+        "title": "Technologies We Use"
+      },
+      "cta": "Let's Talk About Your Web Project"
     },
     "saas": {
       "title": "SaaS Solutions",
-      "description": "Custom SaaS development, micro SaaS creation, and SaaS consulting services."
+      "description": "Custom SaaS development, micro SaaS creation, and SaaS consulting services.",
+      "custom": {
+        "title": "Custom SaaS Development",
+        "description": "We create complete SaaS platforms from scratch, designed to scale and generate recurring revenue."
+      },
+      "micro": {
+        "title": "Micro SaaS",
+        "description": "We develop specialized and focused SaaS solutions that solve specific market problems."
+      },
+      "consulting": {
+        "title": "SaaS Consulting",
+        "description": "We help you plan, design and launch your SaaS product with proven market strategies."
+      },
+      "factors": {
+        "title": "Key Success Factors",
+        "scalable": "Scalable and robust architecture",
+        "userCentric": "User-centered design",
+        "security": "Security and data compliance",
+        "analytics": "Advanced analytics and metrics"
+      },
+      "cta": "Develop Your SaaS"
     },
     "mobile": {
       "title": "Mobile Applications",
-      "description": "Business and consumer mobile apps, cross-platform development, and app maintenance."
+      "description": "Business and consumer mobile apps, cross-platform development, and app maintenance.",
+      "b2b": {
+        "title": "Enterprise Apps",
+        "description": "Mobile applications designed to improve the productivity and efficiency of your work team."
+      },
+      "consumer": {
+        "title": "Consumer Apps",
+        "description": "Attractive and functional mobile applications that connect your business directly with your customers."
+      },
+      "hybrid": {
+        "title": "Hybrid Development",
+        "description": "Cross-platform solutions that work perfectly on iOS and Android with a single development."
+      },
+      "platforms": {
+        "title": "Platforms We Master"
+      },
+      "cta": "Create Your Mobile App"
     }
   },
   "portfolio": {
