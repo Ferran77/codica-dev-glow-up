@@ -169,99 +169,100 @@
   },
   "about": {
     "hero": {
-      "title": "Códica Dev: Our Story & Vision",
-      "description": "We're passionate technologists and strategic thinkers dedicated to transforming businesses through innovative digital solutions."
+      "title": "Códica Dev: technology with purpose",
+      "description": "We create digital solutions by combining strategic thinking, solid engineering, and a clear business vision."
     },
     "story": {
       "title": "Our Story",
-      "paragraph1": "Códica Dev was born from a simple yet powerful belief: that every business, regardless of size, deserves access to world-class digital solutions that drive growth and success.",
-      "paragraph2": "Founded by experienced developers and strategic thinkers, we've witnessed firsthand how the right technology can transform operations, expand reach, and unlock new opportunities. Our journey began with a mission to bridge the gap between complex technology and practical business solutions.",
-      "paragraph3": "Today, we're proud to partner with businesses across industries, helping them navigate the digital landscape with confidence and achieve measurable results through innovative web applications, SaaS platforms, and mobile solutions.",
+      "paragraph1": "Códica Dev was born from a clear conviction: technology shouldn't be an obstacle, but a real lever for growth for any business, regardless of size.",
+      "paragraph2": "From the start, we understood that many companies need more than code: they need clarity, strategy, and solutions that actually work in the real world. That's why we decided to bridge the gap between technical complexity and practical business needs.",
+      "paragraph3": "Today we collaborate with entrepreneurs and businesses across different sectors, helping them build web applications, SaaS platforms, and mobile solutions that generate impact, scale meaningfully, and produce measurable results.",
       "approach": {
         "title": "Our Approach",
-        "description": "We combine technical expertise with strategic thinking to deliver solutions that don't just work—they excel.",
-        "imageAlt": "Team collaboration"
+        "description": "We think before we build. We design before we code. And we develop solutions that not only work, but make sense in the long run.",
+        "imageAlt": "Strategic team collaboration"
       }
     },
     "mission": {
       "title": "Our Mission",
-      "description": "To empower businesses with innovative digital solutions that drive growth, enhance efficiency, and create meaningful connections with their audiences. We're committed to delivering excellence in every project while building lasting partnerships based on trust and results."
+      "description": "To help businesses grow through well-thought-out, efficient, and scalable digital solutions. We focus on creating technology that adds real value, optimizes processes, and strengthens the relationship between brands and their users."
     },
     "vision": {
       "title": "Our Vision",
-      "description": "To be the go-to strategic technology partner for businesses seeking to transform their digital presence and achieve sustainable growth. We envision a future where every business has access to powerful, user-friendly technology that amplifies their potential."
+      "description": "To become a strategic technology partner for businesses seeking to grow with intention. We envision a future where technology is clear, accessible, and serves each company's purpose."
     },
     "values": {
       "title": "Our Values",
-      "description": "These core principles guide every decision we make and every solution we create.",
+      "description": "These principles define how we work and how we build every solution.",
       "innovation": {
-        "title": "Innovation",
-        "description": "We embrace cutting-edge technologies and creative solutions to solve complex challenges."
+        "title": "Innovation with Purpose",
+        "description": "We don't adopt technology for trends, but for impact. We choose tools that add real value."
       },
       "quality": {
-        "title": "Quality",
-        "description": "Every line of code, every design element, and every user interaction is crafted with precision."
+        "title": "Quality in Every Detail",
+        "description": "From architecture to user experience, we care for every technical and creative decision."
       },
       "transparency": {
-        "title": "Transparency",
-        "description": "Open communication, honest timelines, and clear pricing are the foundation of our relationships."
+        "title": "Total Transparency",
+        "description": "Clear processes, honest communication, and well-defined expectations from the start."
       },
       "clientCentricity": {
-        "title": "Client-Centricity",
-        "description": "Your success is our success. We align our efforts with your business goals and objectives."
+        "title": "Client-Focused",
+        "description": "We listen, understand, and align every solution with your business's real objectives."
       }
     },
     "team": {
-      "title": "Meet Our Team",
-      "description": "Our diverse team of developers, designers, and strategists brings together decades of experience in creating exceptional digital solutions.",
+      "title": "The Team Behind Códica Dev",
+      "description": "We're a multidisciplinary team of developers, designers, and strategists focused on creating solid, well-thought-out digital solutions.",
       "members": {
         "alex": {
           "name": "Alex Rodriguez",
           "role": "Founder & Lead Developer",
-          "description": "Full-stack developer with 10+ years experience in enterprise solutions."
+          "description": "Full-stack developer with extensive experience creating business-oriented digital solutions."
         },
         "sarah": {
           "name": "Sarah Chen",
           "role": "UX/UI Designer",
-          "description": "Creative designer specializing in user-centered design and modern interfaces."
+          "description": "Specialist in user-centered design and clear, functional digital experiences."
         },
         "marcus": {
           "name": "Marcus Johnson",
           "role": "Mobile Developer",
-          "description": "Mobile specialist with expertise in cross-platform and native development."
+          "description": "Mobile developer focused on cross-platform solutions and performance."
         }
       }
     },
     "cta": {
-      "title": "Ready to Work Together?",
-      "description": "Let's discuss how we can help transform your digital presence and achieve your business goals.",
-      "button": "Let's Start the Conversation"
+      "title": "Let's Build Something Meaningful",
+      "description": "If you're looking for a technology partner who thinks with you and doesn't just code, let's talk.",
+      "button": "Start Conversation"
     }
   },
   "index": {
     "cta": {
       "title": "Let's talk about your next project",
-      "description": "Schedule a free consultation and let's see if your idea can really become a viable and profitable digital solution.",
-      "portfolio": "View project examples"
+      "description": "Schedule a free consultation and let's see if your idea can truly become a viable and profitable digital solution.",
+      "contact": "Book a consultation",
+      "portfolio": "See project examples"
     },
     "whyChooseUs": {
       "title": "Why Choose Códica Dev?",
-      "description": "We combine technical expertise with strategic thinking to deliver solutions that drive real business results.",
+      "description": "We work with focus, technical criteria, and clear communication so your project moves forward without surprises.",
       "quality": {
-        "title": "Quality First",
-        "description": "We maintain the highest standards in every line of code we write."
+        "title": "Quality from the start",
+        "description": "Clean code, architecture designed to grow, and technical decisions that don't lock you in later."
       },
       "client": {
-        "title": "Client-Centric",
-        "description": "Your success is our priority. We work closely with you every step of the way."
+        "title": "Business-first approach",
+        "description": "Before we write code, we understand your idea, goals, and constraints to build something that truly serves you."
       },
       "speed": {
-        "title": "Fast Delivery",
-        "description": "We value your time and deliver solutions quickly without compromising quality."
+        "title": "Steady progress",
+        "description": "Clear processes, staged deliverables, and continuous communication so you always know where your project stands."
       },
       "support": {
-        "title": "Ongoing Support",
-        "description": "We're here for you even after project completion, ensuring long-term success."
+        "title": "Real long-term support",
+        "description": "We stay with you after launch. We help you maintain, improve, and evolve your solution over time."
       }
     }
   },
@@ -304,6 +305,10 @@
       "success": {
         "title": "Message Sent Successfully!",
         "description": "We'll get back to you within 24 hours."
+      },
+      "error": {
+        "config": "Configuration error: EmailJS credentials are missing",
+        "generic": "Error sending message. Please try again."
       }
     },
     "info": {

@@ -7,9 +7,49 @@ import {
   CheckCircle,
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { useEffect, useRef, useState } from "react";
 
 const Services = () => {
   const { t } = useTranslation();
+  const [hasInteracted, setHasInteracted] = useState(false);
+  const webVideoRef = useRef<HTMLVideoElement | null>(null);
+  const saasVideoRef = useRef<HTMLVideoElement | null>(null);
+  const mobileVideoRef = useRef<HTMLVideoElement | null>(null);
+
+  useEffect(() => {
+    const enableInteraction = () => {
+      setHasInteracted(true);
+    };
+
+    window.addEventListener("click", enableInteraction, { once: true });
+    window.addEventListener("keydown", enableInteraction, { once: true });
+    window.addEventListener("scroll", enableInteraction, { once: true });
+
+    return () => {
+      window.removeEventListener("click", enableInteraction);
+      window.removeEventListener("keydown", enableInteraction);
+      window.removeEventListener("scroll", enableInteraction);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (hasInteracted) {
+      const players = [
+        webVideoRef.current,
+        saasVideoRef.current,
+        mobileVideoRef.current,
+      ].filter(Boolean) as HTMLVideoElement[];
+
+      players.forEach((video) => {
+        const playPromise = video.play();
+        if (playPromise && typeof playPromise.catch === "function") {
+          playPromise.catch(() => {
+            // Ignorar errores de autoplay bloqueado
+          });
+        }
+      });
+    }
+  }, [hasInteracted]);
 
   return (
     <div className="min-h-screen">
@@ -66,11 +106,33 @@ const Services = () => {
             </div>
 
             <div className="bg-gray-900/50 p-8 rounded-xl border border-gray-700">
-              <img
-                src="/assets/services1.jpg"
-                alt="Web Development"
-                className="w-full h-64 object-cover rounded-lg mb-6"
-              />
+              <div className="w-full h-64 rounded-lg mb-6 overflow-hidden bg-black">
+                {hasInteracted ? (
+                  <video
+                    ref={webVideoRef}
+                    className="w-full h-full object-cover"
+                    loop
+                    muted
+                    playsInline
+                    poster="/assets/services1.jpg"
+                  >
+                    <source src="/assets/services1.webm" type="video/webm" />
+                    <source src="/assets/services1.mp4" type="video/mp4" />
+                    {/* Fallback final: imagen estática */}
+                    <img
+                      src="/assets/services1.jpg"
+                      alt="Web Development"
+                      className="w-full h-full object-cover"
+                    />
+                  </video>
+                ) : (
+                  <img
+                    src="/assets/services1.jpg"
+                    alt="Web Development"
+                    className="w-full h-full object-cover"
+                  />
+                )}
+              </div>
               <h4 className="text-lg font-semibold text-brand-white mb-3">
                 {t("services.web.technologies.title")}
               </h4>
@@ -101,11 +163,33 @@ const Services = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
             <div className="bg-gray-900/50 p-8 rounded-xl border border-gray-700 order-2 lg:order-1">
-              <img
-                src="/assets/services2.jpg"
-                alt="SaaS Development"
-                className="w-full h-64 object-cover rounded-lg mb-6"
-              />
+              <div className="w-full h-64 rounded-lg mb-6 overflow-hidden bg-black">
+                {hasInteracted ? (
+                  <video
+                    ref={saasVideoRef}
+                    className="w-full h-full object-cover"
+                    loop
+                    muted
+                    playsInline
+                    poster="/assets/services2.jpg"
+                  >
+                    <source src="/assets/services2.webm" type="video/webm" />
+                    <source src="/assets/services2.mp4" type="video/mp4" />
+                    {/* Fallback final: imagen estática */}
+                    <img
+                      src="/assets/services2.jpg"
+                      alt="SaaS Development"
+                      className="w-full h-full object-cover"
+                    />
+                  </video>
+                ) : (
+                  <img
+                    src="/assets/services2.jpg"
+                    alt="SaaS Development"
+                    className="w-full h-full object-cover"
+                  />
+                )}
+              </div>
               <h4 className="text-lg font-semibold text-brand-white mb-3">
                 {t("services.saas.factors.title")}
               </h4>
@@ -198,11 +282,32 @@ const Services = () => {
             </div>
 
             <div className="bg-gray-900/50 p-8 rounded-xl border border-gray-700">
-              <img
-                src="/assets/services3.jpg"
-                alt="Mobile Development"
-                className="w-full h-64 object-cover rounded-lg mb-6"
-              />
+              <div className="w-full h-64 rounded-lg mb-6 overflow-hidden bg-black">
+                {hasInteracted ? (
+                  <video
+                    ref={mobileVideoRef}
+                    className="w-full h-full object-cover"
+                    loop
+                    muted
+                    playsInline
+                    poster="/assets/services3.jpg"
+                  >
+                    <source src="/assets/services3.webm" type="video/webm" />
+                    <source src="/assets/services3.mp4" type="video/mp4" />
+                    <img
+                      src="/assets/services3.jpg"
+                      alt="Mobile Development"
+                      className="w-full h-full object-cover"
+                    />
+                  </video>
+                ) : (
+                  <img
+                    src="/assets/services3.jpg"
+                    alt="Mobile Development"
+                    className="w-full h-full object-cover"
+                  />
+                )}
+              </div>
               <h4 className="text-lg font-semibold text-brand-white mb-3">
                 {t("services.mobile.platforms.title")}
               </h4>

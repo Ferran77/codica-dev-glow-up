@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import { Target, Eye, Heart, Users, Code, Lightbulb } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
+const SHOW_TEAM_SECTION = false;
+
 const About = () => {
   const { t } = useTranslation();
 
@@ -137,7 +139,8 @@ const About = () => {
         </div>
       </section>
 
-      {/* Team Section */}
+      {/* Team Section (oculta por ahora; cambiar SHOW_TEAM_SECTION a true para mostrar) */}
+      {SHOW_TEAM_SECTION && (
       <section className="py-20 bg-gray-900/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -203,9 +206,10 @@ const About = () => {
           </div>
         </div>
       </section>
+      )}
 
       {/* CTA Section */}
-      <section className="py-20">
+      <section className="py-20 bg-gray-900/30">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-brand-white mb-6">
             {t("about.cta.title")}
