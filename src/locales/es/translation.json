@@ -7,11 +7,11 @@
     "contact": "Contacto"
   },
   "hero": {
-    "title": "Transforma tu Negocio con Tecnología",
-    "subtitle": "Creamos soluciones digitales personalizadas que ayudan a las empresas a crecer y tener éxito en la era digital.",
-    "description": "Transformamos tus ideas en poderosas soluciones digitales que impulsan resultados y crecimiento.",
-    "cta": "Explora Nuestros Servicios",
-    "contact": "Contáctanos",
+    "title": "Tecnología que impulsa tu negocio de verdad",
+    "subtitle": "Diseñamos y desarrollamos <strong>soluciones digitales</strong> a la medida para emprendedores y empresas que quieren <strong>crecer</strong> sin complicaciones técnicas.",
+    "description": "En Códica Dev convertimos ideas en productos digitales funcionales, escalables y bien pensados. Desde sitios web hasta plataformas SaaS y apps móviles, creamos <strong>tecnología que trabaja para ti</strong>.",
+    "cta": "Explorar servicios",
+    "contact": "Hablemos de tu proyecto",
     "cards": {
       "web": {
         "title": "Aplicaciones Web",
@@ -238,10 +238,9 @@
   },
   "index": {
     "cta": {
-      "title": "Hablemos de tu Proyecto",
-      "description": "Agenda una consulta gratuita para explorar cómo podemos ayudar a transformar tu negocio.",
-      "contact": "Contáctanos",
-      "portfolio": "Ver Nuestro Trabajo"
+      "title": "Hablemos de tu próximo proyecto",
+      "description": "Agenda una consulta gratuita y veamos si tu idea realmente puede convertirse en una solución digital viable y rentable.",
+      "portfolio": "Ver ejemplos de proyectos"
     },
     "whyChooseUs": {
       "title": "¿Por qué elegir Códica Dev?",

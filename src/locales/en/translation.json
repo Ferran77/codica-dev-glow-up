@@ -7,11 +7,11 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Transform Your Business with Technology",
-    "subtitle": "We create custom digital solutions that help businesses grow and succeed in the digital age.",
-    "description": "We transform your ideas into powerful digital solutions that drive results and growth.",
-    "cta": "Explore Our Services",
-    "contact": "Get in Touch",
+    "title": "Technology that truly drives your business",
+    "subtitle": "We design and develop custom <strong>digital solutions</strong> for entrepreneurs and businesses that want to <strong>grow</strong> without technical complications.",
+    "description": "At Códica Dev we turn ideas into functional, scalable, and well-thought-out digital products. From websites to SaaS platforms and mobile apps, we create <strong>technology that works for you</strong>.",
+    "cta": "Explore services",
+    "contact": "Let's talk about your project",
     "cards": {
       "web": {
         "title": "Web Applications",
@@ -240,10 +240,9 @@
   },
   "index": {
     "cta": {
-      "title": "Let's Discuss Your Project",
-      "description": "Schedule a free consultation to explore how we can help transform your business.",
-      "contact": "Contact Us",
-      "portfolio": "View Our Work"
+      "title": "Let's talk about your next project",
+      "description": "Schedule a free consultation and let's see if your idea can really become a viable and profitable digital solution.",
+      "portfolio": "View project examples"
     },
     "whyChooseUs": {
       "title": "Why Choose Códica Dev?",
