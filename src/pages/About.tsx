@@ -59,11 +59,18 @@ const About = () => {
               </div>
             </div>
             <div className="bg-gray-900/50 p-8 rounded-xl border border-gray-700">
-              <img
-                src="/assets/about1.png"
-                alt={t("about.story.approach.imageAlt")}
+              <video
+                poster="/assets/about1.png"
                 className="w-full h-64 object-cover rounded-lg mb-6"
-              />
+                loop
+                muted
+                playsInline
+                autoPlay
+                aria-label={t("about.story.approach.imageAlt")}
+              >
+                <source src="/assets/about1.webm" type="video/webm" />
+                <source src="/assets/about1.mp4" type="video/mp4" />
+              </video>
               <div className="text-center">
                 <h3 className="text-xl font-bold text-brand-white mb-2">
                   {t("about.story.approach.title")}

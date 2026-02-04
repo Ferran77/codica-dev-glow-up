@@ -73,14 +73,16 @@ const Footer = () => {
             <h3 className="text-lg font-semibold text-brand-white mb-4">{t('footer.contact')}</h3>
             <ul className="space-y-3">
               <li className="flex items-center gap-3 text-gray-300">
-                <Mail size={16} className="text-brand-accent" />
-                <a href="mailto:contact@codicadev.com" className="hover:text-brand-accent transition-colors">
-                  contact@codicadev.com
+                <Mail size={16} className="text-brand-accent flex-shrink-0" aria-hidden />
+                <a href="mailto:contacto.codicadev@gmail.com" className="hover:text-brand-accent transition-colors">
+                  contacto.codicadev@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-3 text-gray-300">
-                <Phone size={16} className="text-brand-accent" />
-                <span>+1 (555) 123-4567</span>
+                <Phone size={16} className="text-brand-accent flex-shrink-0" aria-hidden />
+                <a href="tel:+525611554662" className="hover:text-brand-accent transition-colors">
+                  (+52) 56 1155-4662
+                </a>
               </li>
               <li className="flex items-center gap-3 text-gray-300">
                 <MapPin size={16} className="text-brand-accent" />
