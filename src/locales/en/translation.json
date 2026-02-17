@@ -121,45 +121,46 @@
     },
     "projects": {
       "ecommerce": {
-        "title": "E-Commerce Platform",
+        "title": "Quiosco POS - Restaurant Point of Sale",
         "category": "Web Application",
-        "description": "A complete e-commerce solution with inventory management, payment processing, and analytics dashboard.",
-        "results": "300% increase in online sales"
+        "description": "Point of sale app for restaurants: orders, payments, and table management in one place.",
+        "results": "Complete system ready for daily sales and operations"
       },
       "taskManagement": {
-        "title": "Task Management SaaS",
-        "category": "SaaS Platform",
-        "description": "A collaborative project management tool with real-time updates, team collaboration, and advanced reporting.",
-        "results": "10,000+ active users in first 6 months"
+        "title": "Pr0mptr - AI Prompts",
+        "category": "Web Platform",
+        "description": "Create, manage, and share prompts for different AI tools on the market in a single app.",
+        "results": "Organize and reuse prompts for ChatGPT, Claude, and more"
       },
       "fitness": {
-        "title": "Fitness Tracking App",
-        "category": "Mobile Application",
-        "description": "A comprehensive fitness app with workout tracking, nutrition planning, and social features.",
-        "results": "50,000+ downloads and 4.8★ rating"
+        "title": "Codic Admin - Business Admin Panel",
+        "category": "Web Application",
+        "description": "Admin panel for companies: centralized management, users, and operations control.",
+        "results": "Dashboard ready to scale your business operations"
       },
       "restaurant": {
-        "title": "Restaurant Management System",
+        "title": "Bank Dash - Banking Movements",
         "category": "Web Application",
-        "description": "Complete restaurant management solution with POS integration, inventory tracking, and customer management.",
-        "results": "Reduced operational costs by 25%"
+        "description": "App to view, record, and track banking transactions and personal or business finances.",
+        "results": "Clear control of income, expenses, and balances"
       },
       "healthcare": {
-        "title": "Healthcare Appointment Platform",
-        "category": "SaaS Platform",
-        "description": "Digital platform connecting patients with healthcare providers, featuring appointment scheduling and telehealth.",
-        "results": "Serves 25+ healthcare practices"
+        "title": "Cripto YA - Crypto Management & Investment",
+        "category": "Landing Page",
+        "description": "Landing page for a downloadable app for crypto management, administration, and investment.",
+        "results": "Engaging presentation for a crypto app"
       },
       "realEstate": {
-        "title": "Real Estate Mobile App",
-        "category": "Mobile Application",
-        "description": "Property search and management app with AR visualization, mortgage calculator, and agent connection.",
-        "results": "Featured in App Store Top Charts"
+        "title": "Códica Play - Gaming Console",
+        "category": "Landing Page",
+        "description": "Promotional landing page for the fictional gaming console \"Códica Play\": design, copy, and brand experience.",
+        "results": "Brand and storytelling project in landing format"
       }
     },
     "project": {
       "results": "Results",
-      "viewDetails": "View Project Details"
+      "viewDetails": "View Project Details",
+      "viewProject": "View project"
     },
     "cta": {
       "title": "Ready to Start Your Own Success Story?",

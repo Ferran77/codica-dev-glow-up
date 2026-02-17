@@ -122,45 +122,46 @@
     },
     "projects": {
       "ecommerce": {
-        "title": "Plataforma E-Commerce",
+        "title": "Quiosco POS - Punto de Venta para Restaurantes",
         "category": "Aplicación Web",
-        "description": "Una solución completa de comercio electrónico con gestión de inventario, procesamiento de pagos y panel de análisis.",
-        "results": "300% de aumento en ventas en línea"
+        "description": "Aplicación de punto de venta para restaurantes: toma de pedidos, cobro y gestión de mesas en un solo lugar.",
+        "results": "Sistema completo listo para ventas y operación diaria"
       },
       "taskManagement": {
-        "title": "SaaS de Gestión de Tareas",
-        "category": "Plataforma SaaS",
-        "description": "Una herramienta colaborativa de gestión de proyectos con actualizaciones en tiempo real, colaboración en equipo y reportes avanzados.",
-        "results": "Más de 10,000 usuarios activos en los primeros 6 meses"
+        "title": "Pr0mptr - Prompts para IA",
+        "category": "Plataforma Web",
+        "description": "Crea, gestiona y comparte prompts para distintas inteligencias artificiales del mercado en una sola herramienta.",
+        "results": "Organiza y reutiliza prompts para ChatGPT, Claude y más"
       },
       "fitness": {
-        "title": "App de Seguimiento Fitness",
-        "category": "Aplicación Móvil",
-        "description": "Una aplicación fitness integral con seguimiento de entrenamientos, planificación nutricional y funciones sociales.",
-        "results": "Más de 50,000 descargas y calificación de 4.8★"
+        "title": "Codic Admin - Panel de Administración",
+        "category": "Aplicación Web",
+        "description": "Panel de administración para empresas: gestión centralizada, usuarios y control de operaciones.",
+        "results": "Dashboard listo para escalar la operación de tu negocio"
       },
       "restaurant": {
-        "title": "Sistema de Gestión para Restaurantes",
+        "title": "Bank Dash - Movimientos Bancarios",
         "category": "Aplicación Web",
-        "description": "Solución completa de gestión para restaurantes con integración POS, seguimiento de inventario y gestión de clientes.",
-        "results": "Reducción de costos operativos en 25%"
+        "description": "Aplicación para consultar, registrar y dar seguimiento a movimientos bancarios y finanzas personales o de negocio.",
+        "results": "Control claro de ingresos, gastos y saldos"
       },
       "healthcare": {
-        "title": "Plataforma de Citas Médicas",
-        "category": "Plataforma SaaS",
-        "description": "Plataforma digital que conecta pacientes con proveedores de salud, con programación de citas y telesalud.",
-        "results": "Atiende a más de 25 prácticas médicas"
+        "title": "Cripto YA - Gestión e Inversión en Cripto",
+        "category": "Landing Page",
+        "description": "Landing page para anunciar una aplicación descargable de gestión, administración e inversión en criptomonedas.",
+        "results": "Presentación atractiva para app de cripto"
       },
       "realEstate": {
-        "title": "App Inmobiliaria",
-        "category": "Aplicación Móvil",
-        "description": "Aplicación de búsqueda y gestión de propiedades con visualización AR, calculadora hipotecaria y conexión con agentes.",
-        "results": "Destacada en los Top Charts de App Store"
+        "title": "Códica Play - Consola de Videojuegos",
+        "category": "Landing Page",
+        "description": "Landing page promocional para la consola de videojuegos ficticia \"Códica Play\": diseño, copy y experiencia de marca.",
+        "results": "Proyecto de marca y storytelling en formato landing"
       }
     },
     "project": {
       "results": "Resultados",
-      "viewDetails": "Ver Detalles del Proyecto"
+      "viewDetails": "Ver Detalles del Proyecto",
+      "viewProject": "Ver proyecto"
     },
     "cta": {
       "title": "¿Listo para Comenzar tu Propia Historia de Éxito?",
