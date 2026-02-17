@@ -3,6 +3,7 @@ import Particles from "react-tsparticles"
 import { loadSlim } from "tsparticles-slim"
 import type { Engine } from "tsparticles-engine"
 
+//comentario de prueba
 export function Cover({ children }: { children: React.ReactNode }) {
     const particlesRef = useRef<any>(null)
 
