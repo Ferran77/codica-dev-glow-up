@@ -3,6 +3,7 @@ import { Toaster } from 'react-hot-toast';
 import './i18n';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 import { Cover } from './components/Cover';
 import Index from './pages/Index';
 import Services from './pages/Services';
@@ -14,6 +15,7 @@ import NotFound from './pages/NotFound';
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Cover>
         <div className="flex flex-col min-h-screen">
           <Navigation />
