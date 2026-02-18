@@ -12,12 +12,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
-            <Link to="/" className="flex items-center mb-4">
+            <Link to="/" className="flex items-center mb-4 -ml-[80px]">
               <img 
                 src="/assets/codica_dev_logo_3d.png" 
                 alt="Códica Dev Logo" 
                 className="w-auto"
-                style={{ height: '140px' }}
+                style={{ height: '150px' }}
               />
             </Link>
             <p className="text-gray-300 mb-6 max-w-md">

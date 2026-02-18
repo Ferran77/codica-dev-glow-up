@@ -27,12 +27,12 @@ const Navigation = () => {
     <nav className="bg-brand-dark/95 backdrop-blur-sm sticky top-0 z-50 border-b border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-24">
-          <Link to="/" className="flex items-center">
+          <Link to="/" className="flex items-center -ml-[70px]">
             <img 
               src="/assets/codica_dev_logo_3d.png" 
               alt="Códica Dev Logo" 
-              className="w-auto"
-              style={{ height: '130px' }}
+              className="w-auto mt-4"
+              style={{ height: '125px' }}
             />
           </Link>
 
