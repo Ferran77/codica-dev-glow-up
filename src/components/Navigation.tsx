@@ -29,7 +29,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-24">
           <Link to="/" className="flex items-center">
             <img 
-              src="/assets/codica_dev_logo.png" 
+              src="/assets/codica_dev_logo_3d.png" 
               alt="Códica Dev Logo" 
               className="w-auto"
               style={{ height: '130px' }}

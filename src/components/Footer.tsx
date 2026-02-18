@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <Link to="/" className="flex items-center mb-4">
               <img 
-                src="/assets/codica_dev_logo.png" 
+                src="/assets/codica_dev_logo_3d.png" 
                 alt="Códica Dev Logo" 
                 className="w-auto"
                 style={{ height: '140px' }}
